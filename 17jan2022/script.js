@@ -27,11 +27,19 @@ const laptop={
 
 
 
-const kitten = {
-  ageMonths: 3,
-  isFemale: true,
-  furColour: "brown",
-};
+// const kitten = {
+//   ageMonths: 3,
+//   isFemale: true,
+//   furColour: "brown",
+// };
 
-const { ageMonths, isFemale, furColour } = kitten;
-console.log(ageMonths, isFemale, furColour);
+// const { ageMonths, isFemale, furColour } = kitten;
+// console.log(ageMonths, isFemale, furColour);
+
+// spread 
+function sum(z,y,x){
+  return z+x+y;
+}
+const number=[1,2,3];
+// console.log(sum(...number));
+console.log(sum.apply(null, numbers));
