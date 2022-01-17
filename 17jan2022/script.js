@@ -42,4 +42,4 @@ function sum(z,y,x){
 }
 const number=[1,2,3];
 // console.log(sum(...number));
-console.log(sum.apply(null, numbers));
+
