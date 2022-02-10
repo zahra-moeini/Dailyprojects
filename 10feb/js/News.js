@@ -33,6 +33,6 @@ class News{
 
         //comp;ete url with key
         url+=`apiKey=${this.APIkey}`
-        console.log(url);
+        // console.log(url);
     }
 }
