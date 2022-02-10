@@ -753,6 +753,7 @@ const strings=[
   ['zahra','shiva','shila','dina','rena','maryam','rasoul'],
   ['asmail','pervanh','hemid','akbar','mohamad','niloufar'],
 ]
+
 //map
 // const namesfamily=strings.map(Element=>{
 //   let indexarray=Element.map(i=>{
@@ -782,9 +783,14 @@ const strings=[
 // arrayList=[];
 // console.log(arrayList.length);
 
-var counterArray = {
-  A: 3,
-  B: 4,
-};
-counterArray["C"] = 1;
-console.log(counterArray);
+// var counterArray = {
+//   A: 3,
+//   B: 4,
+// };
+// counterArray["C"] = 1;
+// console.log(counterArray);
+
+// const array1 = [1, 2, 3, 4];
+// const sum = (previousValue, currentValue) => previousValue * currentValue;
+// console.log(array1.reduce(sum,2));
+
