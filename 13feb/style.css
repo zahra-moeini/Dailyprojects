@@ -1,0 +1,9 @@
+h1{
+    color:darkgreen;
+}
+button{
+    font-size: xx-large;
+    background-color: rgb(12, 203, 228);
+    box-shadow:5px 3px rgb(25, 9, 243);
+    width:40%;
+}
