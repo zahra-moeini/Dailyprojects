@@ -21,7 +21,18 @@ function search(e){
     // console.log(category);
     
     if(newsNams !=='' || country !=='' || category !=='' ){
-        newsAPI.queryAPI(newsNams, country, category);
+     newsAPI.queryAPI(newsNams, country,category)
+     .then(news=>{
+        const newsArray = news.news.articles;
+        if (newsArray.length>0) {
+            ui.shownews(newsArray);
+        } else {
+            ui.printmesaage(
+              "There is no news in with your filtering",
+              "text-center alert alert-danger mt-4"
+            );
+        }
+     })
     }
     else{
        ui.printmesaage('please enter atleast one parameter','text-center alert alert-danger mt-4')

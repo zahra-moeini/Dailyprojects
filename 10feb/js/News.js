@@ -4,7 +4,7 @@ class News{
     }
 
     //send url to the API
-    queryAPI(newsNams, country, category){
+  async  queryAPI(newsNams, country, category){
         //bulid url
         let url = "https://newsapi.org/v2/";
         //check to country and country value
@@ -33,6 +33,10 @@ class News{
 
         //comp;ete url with key
         url+=`apiKey=${this.APIkey}`
-        // console.log(url);
+         const newsResponse= await fetch(url);
+         const news= await newsResponse.json()
+         return {
+           news
+         };
     }
 }
