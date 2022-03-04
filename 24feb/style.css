@@ -1,0 +1,15 @@
+.root{
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+#cart{
+    border-radius: 10px;
+    background-color: grey;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#divbanfsh{
+    background-color: rgb(107, 4, 158);
+   
+}
