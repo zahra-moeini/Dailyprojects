@@ -1,0 +1,16 @@
+{
+  "name": "jokester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "color": "^4.2.1",
+    "colors": "^1.4.0"
+  }
+}
