@@ -1,4 +1,4 @@
-var countDownDate = new Date("2022-3-13 15:22:20");
+var countDownDate = new Date("2022-3-13 16:26:59");
 var x=setInterval(function (){
     var now=new Date().getTime();
     var distance=countDownDate-now;
@@ -14,11 +14,22 @@ var x=setInterval(function (){
             document.getElementById("demo").style.color="green"
         }
     }
-     secondess();
-   
-     if(distance<0){
-         clearInterval(x);
-      document.getElementById("demo").innerHTML = ".سال 1401 هجری شمسی  مبارک باد";
+    secondess();
+    function back(){
         
+        document.body.style.backgroundColor="red"
+    }
+    function daa(){
+        if(days == 0 && hours == 0 && minutes==0 &&seconds<59){
+           
+            
+        }
+    }
+    
+    daa();
+    if(distance<0){
+        clearInterval(x);
+      document.getElementById("demo").innerHTML = ".سال 1401 هجری شمسی  مبارک باد";
+       back();
     }
 },1000);
