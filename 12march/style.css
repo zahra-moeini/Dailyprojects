@@ -1,6 +1,12 @@
 p{
     text-align: center;
-    font-size: 50px;
-    
-   
+    font-size: 70px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image:url("https://photokade.com/wp-content/uploads/eydeha-photokade-com-4.jpg");
+    /* background-size: cover; */
+    background-position-x:50%;
 }
