@@ -1,5 +1,5 @@
 // 2022-3-20 19:03:00
-var countDownDate = new Date("2022-3-20 19:03:00");
+var countDownDate = new Date(" 2022-3-20 19:03:00");
 var x=setInterval(function (){
     var now=new Date().getTime();
     var distance=countDownDate-now;
@@ -10,15 +10,22 @@ var x=setInterval(function (){
     document.getElementById("demo")
     .innerHTML =days + "Day" +"  "  +hours +"hours" +" "+ minutes +"minutes" +" "+ seconds +"seconds";
     // function color text
-    http: function secondess() {
+     function secondess() {
       if (days == 0 && hours == 0 && minutes == 0 && seconds < 10) {
         document.getElementById("demo").style.color = "green";
       }
     }
     secondess(); 
+    function back(){
+      if (days == 0 && hours == 0 && minutes == 0 && seconds ==0) {
+        document.body.style.backgroundImage =
+          "url('https://photokade.com/wp-content/uploads/eydeha-photokade-com-4.jpg')" ;
+      }
+    }
     if(distance<0){
         clearInterval(x);
       document.getElementById("demo").innerHTML = ".سال 1401 هجری شمسی  مبارک باد";
-       
+       back();
     }
+
 },1000);
