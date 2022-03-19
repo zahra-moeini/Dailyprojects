@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Drag and Drop</title>
+    <!-- link font aewsme-->
+    <link rel="stylesheet" href="./fontawesome/all.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="draggable-elements">
+        <i class="fa-solid fa-cat draggable" style= "color: #ff6384;" id="cat"></i>
+        <i class="fa-solid fa-dog draggable" style= "color: #36a2eb;" id="dog"></i>
+        <i class="fa-solid fa-dove draggable" style="color: #ffce56;" id="dove"></i>
+        <i class="fa-solid fa-fish-fins draggable" style="color: #9966ff;" id="fish"></i>
+        <i class="fa-solid fa-frog draggable" style="color: #4bc0c0;" id="frog"></i>
+    </section>
+    <section class="droppable-elements"><div class="droppable" data-draggable-id="frog"><span>frog</span></div>
+    <section class="droppable-elements"><div class="droppable" data-draggable-id="dove"><span>Bird</span></div>
+    <section class="droppable-elements"><div class="droppable" data-draggable-id="cat"><span>cat</span></div>
+    <section class="droppable-elements"><div class="droppable" data-draggable-id="fish"><span>Fish</span></div>
+    <section class="droppable-elements"><div class="droppable" data-draggable-id="dog"><span>Dog</span></div>
+    
+    
+    </section>
+    <!-- link script js fontawesome  -->
+    <script src="./fontawesome/all.min.js"></script>
+    <!-- link script js -->
+    <script src="./script.js"></script>
+</body>
+</html>

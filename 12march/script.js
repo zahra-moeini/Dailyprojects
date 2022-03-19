@@ -1,5 +1,5 @@
 // 2022-3-20 19:03:00
-var countDownDate = new Date("2022-3-20 19:03:00");
+var countDownDate = new Date(" 2022-3-20 19:03:00");
 var x=setInterval(function (){
     var now=new Date().getTime();
     var distance=countDownDate-now;
@@ -25,7 +25,7 @@ var x=setInterval(function (){
     if(distance<0){
         clearInterval(x);
       document.getElementById("demo").innerHTML = ".سال 1401 هجری شمسی  مبارک باد";
-       
+       back();
     }
 
 },1000);
