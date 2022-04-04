@@ -87,11 +87,10 @@ form button{
     right: 17px;
     font-size: 14px;
     color: red;
-
-}
-#subit-error{
-    color: red;
 }
 .input-group span i{
-    color: seadreen;
+    color: seagreen;
+}
+#submit-error{
+    color: red; 
 }
